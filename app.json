@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/billing/index",    
+    "pages/my/index",
+    "pages/wallet/index",
+    "pages/charge/index",
+    "pages/scanResult /index",
+    "pages/warn/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b9dd08",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ofo共享单车",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

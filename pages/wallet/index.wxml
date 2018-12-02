@@ -1,0 +1,29 @@
+<!--pages/wallet/index.wxml-->
+<view class='container'>
+  <view class='money'>
+    <view class='money-title'>
+      <text>我的余额（元）</text>
+    </view>
+    <view class='money-content'>
+      <text>{{money}}</text>
+    </view>
+    <view class='money-desc'>
+      <text>余额说明</text>
+    </view>
+  </view>
+  <button class='btn-charge' bindtap='bindtap'>充值</button>
+  <view class='my-ticket same'>
+    <text>我的用车劵</text>  
+    <text>0张 ></text>
+  </view>
+  <view class='my-diya same'>
+    <text>我的押金</text>  
+    <text>
+      <text class='diya-text'>99元，押金退款</text> >
+    </text>
+  </view>
+  <view class='my-about same'>
+    <text>关于ofo</text>  
+    <text>></text>
+  </view>
+</view>
